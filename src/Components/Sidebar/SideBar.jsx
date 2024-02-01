@@ -30,25 +30,25 @@ const SideBar = () => {
                     <li>
                         <label>
                             <input type="checkbox" className="checkbox checkbox-xs" />
-                            <span className="ml-2">StreetStyle</span>
+                            <span className="ml-2">Jordan</span>
                         </label>
                     </li>
                     <li>
                         <label>
                             <input type="checkbox" className="checkbox checkbox-xs" />
-                            <span className="ml-2">SportyWear</span>
+                            <span className="ml-2">New Era</span>
                         </label>
                     </li>
                     <li>
                         <label>
                             <input type="checkbox" className="checkbox checkbox-xs" />
-                            <span className="ml-2">TrendySpecs</span>
+                            <span className="ml-2">Patagonia</span>
                         </label>
                     </li>
                     <li>
                         <label>
                             <input type="checkbox" className="checkbox checkbox-xs" />
-                            <span className="ml-2">UrbanTrend</span>
+                            <span className="ml-2">Obey</span>
                         </label>
                     </li>
                 </ul>

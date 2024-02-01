@@ -44,8 +44,8 @@
         "reviews": 110,
         "previous_price": 59.99,
         "new_price": 49.99,
-        "brand_name": "UrbanTrend",
-        "color": "White"
+        "brand_name": "Jordan",
+        "color": "Adidas"
     },
     {
         "id": "5",
@@ -56,7 +56,7 @@
         "reviews": 80,
         "previous_price": 29.99,
         "new_price": 24.99,
-        "brand_name": "StreetStyle",
+        "brand_name": "New Era",
         "color": "Red"
     },
     {
@@ -68,7 +68,7 @@
         "reviews": 110,
         "previous_price": 19.99,
         "new_price": 16.99,
-        "brand_name": "SportyWear",
+        "brand_name": "New Era",
         "color": "Blue"
     },
     {
@@ -80,7 +80,7 @@
         "reviews": 130,
         "previous_price": 24.99,
         "new_price": 19.99,
-        "brand_name": "UrbanCaps",
+        "brand_name": "Patagonia",
         "color": "Black"
     },
     {
@@ -128,7 +128,7 @@
         "reviews": 180,
         "previous_price": 69.99,
         "new_price": 59.99,
-        "brand_name": "RunElite",
+        "brand_name": "Adidas",
         "color": "Green"
     },
     {
@@ -140,7 +140,7 @@
         "reviews": 90,
         "previous_price": 19.99,
         "new_price": 14.99,
-        "brand_name": "StreetStyle",
+        "brand_name": "Patagonia",
         "color": "Green"
     },
     {
@@ -164,7 +164,7 @@
         "reviews": 150,
         "previous_price": 89.99,
         "new_price": 79.99,
-        "brand_name": "ElegantSteps",
+        "brand_name": "Adidas",
         "color": "Red"
     },
     {
@@ -176,7 +176,7 @@
         "reviews": 120,
         "previous_price": 24.99,
         "new_price": 19.99,
-        "brand_name": "SportyWear",
+        "brand_name": "Obey",
         "color": "Blue"
     },
     {
@@ -200,7 +200,7 @@
         "reviews": 160,
         "previous_price": 99.99,
         "new_price": 89.99,
-        "brand_name": "UrbanTrend",
+        "brand_name": "Nick",
         "color": "Black"
     },
     {
@@ -212,7 +212,7 @@
         "reviews": 140,
         "previous_price": 24.99,
         "new_price": 19.99,
-        "brand_name": "UrbanCaps",
+        "brand_name": "Obey",
         "color": "Black"
     },
     {
@@ -236,7 +236,7 @@
         "reviews": 200,
         "previous_price": 49.99,
         "new_price": 39.99,
-        "brand_name": "UrbanTrend",
+        "brand_name": "Jordan",
         "color": "White"
     },
     {
@@ -248,7 +248,7 @@
         "reviews": 150,
         "previous_price": 19.99,
         "new_price": 14.99,
-        "brand_name": "StreetStyle",
+        "brand_name": "Patagonia",
         "color": "White"
     },
     {
@@ -272,7 +272,7 @@
         "reviews": 140,
         "previous_price": 69.99,
         "new_price": 59.99,
-        "brand_name": "RunElite",
+        "brand_name": "Jordan",
         "color": "Green"
     },
     {
@@ -284,7 +284,7 @@
         "reviews": 100,
         "previous_price": 19.99,
         "new_price": 14.99,
-        "brand_name": "StreetStyle",
+        "brand_name": "Patagonia",
         "color": "Red"
     },
     {
@@ -308,7 +308,7 @@
         "reviews": 170,
         "previous_price": 89.99,
         "new_price": 79.99,
-        "brand_name": "RunElite",
+        "brand_name": "Jordan",
         "color": "Black"
     },
     {
@@ -320,7 +320,7 @@
         "reviews": 120,
         "previous_price": 24.99,
         "new_price": 19.99,
-        "brand_name": "SportyWear",
+        "brand_name": "New Era",
         "color": "Blue"
     },
     {
