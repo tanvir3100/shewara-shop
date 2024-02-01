@@ -50,7 +50,6 @@ const Navbar = () => {
                                 {navLinks}
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl">SHEWARA</a>
                     </div>
                     <div className="navbar-end">
                         <button className="btn btn-ghost btn-circle">

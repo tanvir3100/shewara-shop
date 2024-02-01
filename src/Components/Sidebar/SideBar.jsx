@@ -2,14 +2,32 @@
 
 const SideBar = () => {
     return (
-        <div className="text-center text-xl gap-5 mt-24">
-            <ul>
-                <li><button className="btn">ami$1</button></li>
-                <li>ami$1</li>
-                <li>ami$1</li>
-                <li>ami$1</li>
-                <li>ami$1</li>
-            </ul>
+        <div className="text-center text-xl gap-5 border border-l-0 w-[188px] h-[100vh]">
+            <div className="h-[84px] w-full flex justify-center items-center border border-l-0 border-r-0 ">
+                <a className="btn btn-ghost text-xl">SHEWARA</a>
+            </div>
+            <div className="mt-10 text-justify">
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" className="checkbox checkbox-xs" />
+                            <span className="ml-2">All Products</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" className="checkbox checkbox-xs" />
+                            <span className="ml-2">Nick</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" className="checkbox checkbox-xs" />
+                            <span className="ml-2">Adidas</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
         </div>
     );
 };
