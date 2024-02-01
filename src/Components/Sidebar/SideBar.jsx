@@ -7,6 +7,7 @@ const SideBar = () => {
                 <a className="btn btn-ghost text-xl">SHEWARA</a>
             </div>
             <div className="mt-10 text-justify">
+                <h1 className="text-2xl mb-3 font-bold">Category</h1>
                 <ul>
                     <li>
                         <label>
@@ -24,6 +25,30 @@ const SideBar = () => {
                         <label>
                             <input type="checkbox" className="checkbox checkbox-xs" />
                             <span className="ml-2">Adidas</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" className="checkbox checkbox-xs" />
+                            <span className="ml-2">StreetStyle</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" className="checkbox checkbox-xs" />
+                            <span className="ml-2">SportyWear</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" className="checkbox checkbox-xs" />
+                            <span className="ml-2">TrendySpecs</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" className="checkbox checkbox-xs" />
+                            <span className="ml-2">UrbanTrend</span>
                         </label>
                     </li>
                 </ul>
