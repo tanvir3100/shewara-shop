@@ -22,7 +22,7 @@ const Home = () => {
                                     <p>{item.new_price}</p>
                                 </div>
                                 <div className="card-actions flex items-end justify-end w-full">
-                                    <button className="btn btn-sm rounded-none hover:bg-black hover:text-white"><IoBagHandleOutline className="text-2xl" /></button>
+                                    <button className="btn btn-sm rounded-none hover:bg-black hover:text-white border-2 border-black"><IoBagHandleOutline className="text-2xl" /></button>
                                 </div>
                             </div>
                         </div>)
