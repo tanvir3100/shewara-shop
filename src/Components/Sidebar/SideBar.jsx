@@ -18,7 +18,7 @@ const SideBar = () => {
                     <li>
                         <label>
                             <input type="checkbox" className="checkbox checkbox-xs" />
-                            <span className="ml-2">Nick</span>
+                            <span className="ml-2">Nike</span>
                         </label>
                     </li>
                     <li>

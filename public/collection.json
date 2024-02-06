@@ -2,50 +2,50 @@
     {
         "id": "1",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/SVcS4D0/trendest-studio-XZ3-Em-AIWuz0-unsplash.jpg",
         "title": "Classic Black Sneakers-black ",
         "star_rating": 4.5,
         "reviews": 120,
         "previous_price": 79.99,
         "new_price": 59.99,
-        "brand_name": "Nick",
+        "brand_name": "Nike",
         "color": "Black"
     },
     {
         "id": "2",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/N3P7Kw5/felipepelaquim-6z-O5-VKogo-ZE-unsplash.jpg",
         "title": "Running Shoes - Blue Burst",
         "star_rating": 4.2,
         "reviews": 95,
         "previous_price": 89.99,
         "new_price": 69.99,
-        "brand_name": "Nick",
+        "brand_name": "Nike",
         "color": "Blue"
     },
     {
         "id": "3",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/PYL9DwM/wengang-zhai-f-OL6ebf-ECQ-unsplash.jpg",
         "title": "Casual Canvas Shoes - Grey",
         "star_rating": 4.7,
         "reviews": 150,
         "previous_price": 49.99,
         "new_price": 39.99,
-        "brand_name": "Nick",
+        "brand_name": "Nike",
         "color": "Black"
     },
     {
         "id": "4",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/THgNVH6/daniel-storek-JM-q-KEd1-GMI-unsplash.jpg",
         "title": "White High Tops - Urban Chic",
         "star_rating": 4.6,
         "reviews": 110,
         "previous_price": 59.99,
         "new_price": 49.99,
-        "brand_name": "Jordan",
-        "color": "Adidas"
+        "brand_name": "Adidas",
+        "color": "White"
     },
     {
         "id": "5",
@@ -122,14 +122,14 @@
     {
         "id": "11",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/z8T80yL/chuttersnap-CLAWRo-Ztl-Ag-unsplash.jpg",
         "title": "Green Athletic Shoes - Performance Series",
         "star_rating": 4.6,
         "reviews": 180,
         "previous_price": 69.99,
         "new_price": 59.99,
         "brand_name": "Adidas",
-        "color": "Green"
+        "color": "Blue"
     },
     {
         "id": "12",
@@ -158,14 +158,14 @@
     {
         "id": "14",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/Fw4xP9L/chuttersnap-4-JHMt29fvj8-unsplash.jpg",
         "title": "Red High Heels - Elegant Series",
         "star_rating": 4.3,
         "reviews": 150,
         "previous_price": 89.99,
         "new_price": 79.99,
         "brand_name": "Adidas",
-        "color": "Red"
+        "color": "Blue"
     },
     {
         "id": "15",
@@ -194,13 +194,13 @@
     {
         "id": "17",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/kJG4zTL/luis-felipe-lins-LG88-A2-Xg-IXY-unsplash.jpg",
         "title": "Black Leather Boots - Urban Chic",
         "star_rating": 4.4,
         "reviews": 160,
         "previous_price": 99.99,
         "new_price": 89.99,
-        "brand_name": "Nick",
+        "brand_name": "Nike",
         "color": "Black"
     },
     {
