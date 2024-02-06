@@ -12,30 +12,6 @@
         "color": "Black"
     },
     {
-        "id": "2",
-        "category": "Shoes",
-        "image": "https://i.ibb.co/N3P7Kw5/felipepelaquim-6z-O5-VKogo-ZE-unsplash.jpg",
-        "title": "Running Shoes - Blue Burst",
-        "star_rating": 4.2,
-        "reviews": 95,
-        "previous_price": 89.99,
-        "new_price": 69.99,
-        "brand_name": "Nike",
-        "color": "Blue"
-    },
-    {
-        "id": "3",
-        "category": "Shoes",
-        "image": "https://i.ibb.co/PYL9DwM/wengang-zhai-f-OL6ebf-ECQ-unsplash.jpg",
-        "title": "Casual Canvas Shoes - Grey",
-        "star_rating": 4.7,
-        "reviews": 150,
-        "previous_price": 49.99,
-        "new_price": 39.99,
-        "brand_name": "Nike",
-        "color": "Black"
-    },
-    {
         "id": "4",
         "category": "Shoes",
         "image": "https://i.ibb.co/THgNVH6/daniel-storek-JM-q-KEd1-GMI-unsplash.jpg",
@@ -50,7 +26,7 @@
     {
         "id": "5",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/vmgFQZr/erik-mclean-m7l-HDZc-Tqq-I-unsplash.jpg",
         "title": "Retro Snapback Cap - Red",
         "star_rating": 4.0,
         "reviews": 80,
@@ -60,9 +36,21 @@
         "color": "Red"
     },
     {
+        "id": "2",
+        "category": "Shoes",
+        "image": "https://i.ibb.co/N3P7Kw5/felipepelaquim-6z-O5-VKogo-ZE-unsplash.jpg",
+        "title": "Running Shoes - Blue Burst",
+        "star_rating": 4.2,
+        "reviews": 95,
+        "previous_price": 89.99,
+        "new_price": 69.99,
+        "brand_name": "Nike",
+        "color": "Blue"
+    },
+    {
         "id": "6",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/VxZHmcD/sonu-kumar-8-XZBP38-QJFM-unsplash.jpg",
         "title": "Classic Baseball Cap - Navy",
         "star_rating": 4.3,
         "reviews": 110,
@@ -74,7 +62,7 @@
     {
         "id": "7",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/VLCzRZY/kaycee-ingram-Wf-MApqe-C428-unsplash.jpg",
         "title": "Trucker Cap Rose - Black Mesh",
         "star_rating": 4.6,
         "reviews": 130,
@@ -86,7 +74,7 @@
     {
         "id": "8",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/gFRscBn/sincerely-media-d05w6-7-Fa-PM-unsplash.jpg",
         "title": "Aviator Sunglasses - Black",
         "star_rating": 4.8,
         "reviews": 200,
@@ -98,7 +86,7 @@
     {
         "id": "9",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/S6KQWXH/giorgio-trovato-K62u25-Jk6vo-unsplash.jpg",
         "title": "Round Frame Glasses - Tortoise Shell",
         "star_rating": 4.4,
         "reviews": 150,
@@ -110,7 +98,7 @@
     {
         "id": "10",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/5Ftjs9g/stephanie-hau-P4-TPj-OXKq-Y8-unsplash.jpg",
         "title": "Wayfarer Sunglasses - Red",
         "star_rating": 4.2,
         "reviews": 100,
@@ -118,6 +106,18 @@
         "new_price": 24.99,
         "brand_name": "UrbanShades",
         "color": "Red"
+    },
+    {
+        "id": "3",
+        "category": "Shoes",
+        "image": "https://i.ibb.co/PYL9DwM/wengang-zhai-f-OL6ebf-ECQ-unsplash.jpg",
+        "title": "Casual Canvas Shoes - Grey",
+        "star_rating": 4.7,
+        "reviews": 150,
+        "previous_price": 49.99,
+        "new_price": 39.99,
+        "brand_name": "Nike",
+        "color": "Black"
     },
     {
         "id": "11",
@@ -134,7 +134,7 @@
     {
         "id": "12",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/jTtPqMF/wtfast-Msa8p-Ts-IFws-unsplash.jpg",
         "title": "Green Snapback Cap - Classic Edition",
         "star_rating": 4.5,
         "reviews": 90,
@@ -146,7 +146,7 @@
     {
         "id": "13",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/6JXGw6Q/claudio-schwarz-e8-Ttk-C5xyv4-unsplash.jpg",
         "title": "White Retro Sunglasses - Vintage Collection",
         "star_rating": 4.7,
         "reviews": 220,
@@ -170,7 +170,7 @@
     {
         "id": "15",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/YTzz61g/kaycee-ingram-4-EWh-ZW7q1hg-unsplash.jpg",
         "title": "Blue Baseball Cap - Sporty Edition",
         "star_rating": 4.1,
         "reviews": 120,
@@ -182,7 +182,7 @@
     {
         "id": "16",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/9t3jhQD/gerald-hartl-y-Qp-Sx-KF-ELA-unsplash.jpg",
         "title": "Blue Aviator Sunglasses - Trendy Collection",
         "star_rating": 4.6,
         "reviews": 180,
@@ -206,7 +206,7 @@
     {
         "id": "18",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/RQgc58B/ryan-stone-t-LTyel-FSRs-Y-unsplash.jpg",
         "title": "Black Trucker Cap - Mesh Edition",
         "star_rating": 4.7,
         "reviews": 140,
@@ -218,7 +218,7 @@
     {
         "id": "19",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/dKx2W6w/lensabl-0-Gf-Plommtx-M-unsplash.jpg",
         "title": "Black Square Frame Glasses - Retro Style",
         "star_rating": 4.5,
         "reviews": 170,
@@ -230,7 +230,7 @@
     {
         "id": "20",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/1TB38rs/taylor-smith-a-DZ5-YIued-Qg-unsplash.jpg",
         "title": "White Canvas Sneakers - Vintage Collection",
         "star_rating": 4.8,
         "reviews": 200,
@@ -242,7 +242,7 @@
     {
         "id": "21",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/Hz0r2bH/lautaro-andreani-6-Fa-Y0-OJm-YG4-unsplash.jpg",
         "title": "White Snapback Cap - Classic Edition",
         "star_rating": 4.6,
         "reviews": 150,
@@ -254,7 +254,7 @@
     {
         "id": "22",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/C6PLT3m/volodymyr-hryshchenko-NQQ-WKbj-MZ0-unsplash.jpg",
         "title": "Red Wayfarer Sunglasses - Urban Chic",
         "star_rating": 4.3,
         "reviews": 120,
@@ -266,7 +266,7 @@
     {
         "id": "23",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/DYnwMxx/nelson-ndongala-k-KObh7t-UPNc-unsplash.jpg",
         "title": "Green Running Shoes - Performance Series",
         "star_rating": 4.4,
         "reviews": 140,
@@ -278,7 +278,7 @@
     {
         "id": "24",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/ygVL1LB/nicolas-j-leclercq-x-KNl-VQIEso-unsplash.jpg",
         "title": "Red Snapback Cap - Classic Edition",
         "star_rating": 4.2,
         "reviews": 100,
@@ -290,7 +290,7 @@
     {
         "id": "25",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/HThnV90/sabri-tuzcu-kx-R3hh0-IRHU-unsplash.jpg",
         "title": "Blue Aviator Sunglasses - Retro Style",
         "star_rating": 4.7,
         "reviews": 180,
@@ -302,7 +302,7 @@
     {
         "id": "26",
         "category": "Shoes",
-        "image": "link_to_shoe_image",
+        "image": "https://i.ibb.co/SXJX3yt/hermes-rivera-w83s82yd3-Fk-unsplash.jpg",
         "title": "Black Running Shoes - Elite Edition",
         "star_rating": 4.6,
         "reviews": 170,
@@ -314,7 +314,7 @@
     {
         "id": "27",
         "category": "Caps",
-        "image": "link_to_cap_image",
+        "image": "https://i.ibb.co/S3jgGjZ/yang-deng-2lo-Kxdi6-Hmo-unsplash.jpg",
         "title": "Blue Baseball Cap - Sporty Edition",
         "star_rating": 4.1,
         "reviews": 120,
@@ -326,7 +326,7 @@
     {
         "id": "28",
         "category": "Glasses",
-        "image": "link_to_glasses_image",
+        "image": "https://i.ibb.co/PF2P4n3/lucas-george-wendt-3xt-Ce-Uhq-ZWE-unsplash.jpg",
         "title": "White Wayfarer Sunglasses - Urban Chic",
         "star_rating": 4.5,
         "reviews": 160,
