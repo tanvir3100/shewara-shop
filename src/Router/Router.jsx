@@ -3,6 +3,7 @@ import Home from "../Pages/Home/Home";
 import MainLayout from "../Layout/MainLayout";
 import Contact from "../Pages/Contact/Contact";
 import AboutUs from "../Pages/AboutUs/AboutUs";
+import DashBoard from "../Pages/DashBoard/DashBoard";
 
 
 const Router = createBrowserRouter([
@@ -21,7 +22,11 @@ const Router = createBrowserRouter([
             {
                 path: '/aboutUs',
                 element: <AboutUs />
-            }
+            },
+            {
+                path: '/dashBoard',
+                element: <DashBoard />
+            },
         ]
     },
 ]);

@@ -26,16 +26,11 @@ const Home = () => {
 
     let sortedCollection = [...filteredCollection];
     if (sortOption === 'High to Low') {
-        sortedCollection = sortedCollection.filter((item, index) => {
-            if (index === 0) return true;
-            return item.new_price >= sortedCollection[index - 1].new_price;
-        });
+        sortedCollection.sort((a, b) => b.new_price - a.new_price);
     } else if (sortOption === 'Low to High') {
-        sortedCollection = sortedCollection.filter((item, index) => {
-            if (index === 0) return true;
-            return item.new_price <= sortedCollection[index - 1].new_price;
-        });
+        sortedCollection.sort((a, b) => a.new_price - b.new_price);
     }
+
 
     return (
         <div className='p-4'>

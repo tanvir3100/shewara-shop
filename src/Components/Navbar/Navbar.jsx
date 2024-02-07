@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { IoBagHandleOutline } from "react-icons/io5";
 
 
@@ -51,10 +51,12 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <button className="btn btn-ghost btn-circle">
-                        <div className="indicator">
-                            <IoBagHandleOutline className="text-2xl" />
-                            <span className="badge badge-xs indicator-item p-2 bg-black text-white">+1</span>
-                        </div>
+                        <Link to='/dashBoard'>
+                            <div className="indicator">
+                                <IoBagHandleOutline className="text-2xl" />
+                                <span className="badge badge-xs indicator-item p-2 bg-black text-white">+0  </span>
+                            </div>
+                        </Link>
                     </button>
                 </div>
             </div>

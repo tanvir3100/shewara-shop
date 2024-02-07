@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "position": "CEO",
+        "email": "john.doe@example.com",
+        "phone": "+1234567890",
+        "bio": "John is the founder and CEO of our company. With over 10 years of experience in business management, he is passionate about leading our team to success.",
+        "image": "https://i.ibb.co/cxhghJM/harps-joseph-t-Avp-DE7f-Xg-Y-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "position": "CTO",
+        "email": "jane.smith@example.com",
+        "phone": "+1987654321",
+        "bio": "Jane is our Chief Technology Officer and leads our development team. She has a strong background in software engineering and is always seeking innovative solutions.",
+        "image": "https://i.ibb.co/q146mcK/jonas-kakaroto-KIPqvv-TOC1s-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Alice Johnson",
+        "position": "Marketing Director",
+        "email": "alice.johnson@example.com",
+        "phone": "+1122334455",
+        "bio": "Alice is responsible for overseeing all marketing activities. With her creative ideas and strategic approach, she helps us reach our target audience effectively.",
+        "image": "https://i.ibb.co/ZY55yB8/foto-sushi-6anudmp-ILw4-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Emily Brown",
+        "position": "Senior Developer",
+        "email": "bob.williams@example.com",
+        "phone": "+1555666777",
+        "bio": "Bob is a talented software developer with expertise in front-end and back-end development. He enjoys tackling complex problems and building scalable solutions.",
+        "image": "https://i.ibb.co/zfCZVr6/thisisengineering-raeng-TXxi-Fu-QLBKQ-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bob Williams",
+        "position": "Graphic Designer",
+        "email": "emily.brown@example.com",
+        "phone": "+1444333222",
+        "bio": "Emily is our creative guru, responsible for designing stunning visuals for our brand. She brings creativity and flair to everything she creates.",
+        "image": "https://i.ibb.co/17JdFXT/yogendra-singh-Hrp-YHch-Kb5-Y-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Michael Lee",
+        "position": "Sales Manager",
+        "email": "michael.lee@example.com",
+        "phone": "+1999888777",
+        "bio": "Michael leads our sales team and is dedicated to building strong relationships with our clients. He is driven by achieving targets and delivering results.",
+        "image": "https://i.ibb.co/h9rq2Vy/austin-distel-7uo-Mmz-Pd2-JA-unsplash.jpg"
+    }
+]

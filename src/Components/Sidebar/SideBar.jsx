@@ -8,7 +8,7 @@ const SideBar = () => {
                 <a className="btn btn-ghost text-2xl">BrandShop</a>
             </div>
             <div className="mt-10 flex justify-center items-center">
-                <h1 className="text-6xl mb-3 font-bold text-center mt-16" style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}>SHEWARA</h1>
+                <h1 className="text-6xl mb-3 font-bold text-center mt-16 text-black" style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}>SHEWARA</h1>
             </div>
         </div>
     );
