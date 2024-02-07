@@ -3,7 +3,7 @@
 
 const SideBar = () => {
     return (
-        <div className="text-center text-xl gap-5 border border-l-0 w-[188px] h-[100vh]">
+        <div className="text-center text-xl gap-5 border border-l-0 w-[188px] h-[100vh] hidden lg:block">
             <div className="h-[84px] w-full flex justify-center items-center border border-l-0 border-r-0 ">
                 <a className="btn btn-ghost text-2xl">BrandShop</a>
             </div>

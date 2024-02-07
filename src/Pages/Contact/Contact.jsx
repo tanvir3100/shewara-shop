@@ -2,9 +2,9 @@
 
 const Contact = () => {
     return (
-        <div className='p-4'>
+        <div className='p-0 lg:p-4'>
             <div className='ml-5'>
-                <h1 className="text-4xl text-center mb-5">Contact</h1>
+                <h1 className="text-4xl text-center mb-5">Contact With Us</h1>
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row-reverse">
                         <div className="text-center lg:text-left">

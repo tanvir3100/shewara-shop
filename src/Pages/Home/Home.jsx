@@ -20,7 +20,7 @@ const Home = () => {
     });
 
     const handleSort = e => {
-        const selected =e.target.value;
+        const selected = e.target.value;
         setSortOption(selected)
     }
 
@@ -36,31 +36,31 @@ const Home = () => {
         <div className='p-4'>
             <h1 className="text-2xl">Our Products</h1>
             <div className='ml-5'>
-                <div className='flex justify-between items-center mb-5'>
+                <div className='flex lg:justify-between items-center my-5 '>
                     {/* <div className='flex items-center gap-4 my-5'>
                         <button onClick={() => handleClick()} className='btn btn-sm rounded-none'>All</button>
                         <button onClick={() => handleClick('Nike')} className='btn btn-sm rounded-none'>Nike</button>
                         <button onClick={() => handleClick('Adidas')} className='btn btn-sm rounded-none'>Adidas</button>
                         <button onClick={() => handleClick('Jordan')} className='btn btn-sm rounded-none'>Jordan</button>
                     </div> */}
-                    <div className="flex gap-4 items-center">
+                    <div className="flex gap-1 lg:gap-4 items-center">
                         <button onClick={() => handleClick()} className='btn btn-sm rounded-none'>All</button>
                         <button onClick={() => handleClick(null, 'shoes')} className="btn rounded-none btn-sm">Shoes</button>
                         <button onClick={() => handleClick(null, 'caps')} className="btn rounded-none btn-sm">Caps</button>
                         <button onClick={() => handleClick(null, 'glasses')} className="btn rounded-none btn-sm">Glasses</button>
                     </div>
-                    <div className=''>
-                        <label className="form-control w-full max-w-xs rounded-none">
-                            <div className="label">
-                                <span className="label-text">Pick the One You need</span>
-                            </div>
-                            <select onChange={handleSort} className="select select-bordered rounded-none">
-                                <option disabled selected>Pick one</option>
-                                <option>High to Low</option>
-                                <option>Low to High</option>
-                            </select>
-                        </label>
-                    </div>
+                </div>
+                <div className='mb-5'>
+                    <label className="form-control w-full max-w-xs rounded-none">
+                        <div className="label">
+                            <span className="label-text">Pick the One You need</span>
+                        </div>
+                        <select onChange={handleSort} className="select select-bordered rounded-none">
+                            <option disabled selected>Pick one</option>
+                            <option>High to Low</option>
+                            <option>Low to High</option>
+                        </select>
+                    </label>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                     {sortedCollection.map(item => (

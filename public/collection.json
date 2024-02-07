@@ -24,30 +24,6 @@
         "color": "White"
     },
     {
-        "id": "5",
-        "category": "Caps",
-        "image": "https://i.ibb.co/vmgFQZr/erik-mclean-m7l-HDZc-Tqq-I-unsplash.jpg",
-        "title": "Retro Snapback Cap - Red",
-        "star_rating": 4.0,
-        "reviews": 80,
-        "previous_price": 29.99,
-        "new_price": 24.99,
-        "brand_name": "New Era",
-        "color": "Red"
-    },
-    {
-        "id": "2",
-        "category": "Shoes",
-        "image": "https://i.ibb.co/N3P7Kw5/felipepelaquim-6z-O5-VKogo-ZE-unsplash.jpg",
-        "title": "Running Shoes - Blue Burst",
-        "star_rating": 4.2,
-        "reviews": 95,
-        "previous_price": 89.99,
-        "new_price": 69.99,
-        "brand_name": "Nike",
-        "color": "Blue"
-    },
-    {
         "id": "6",
         "category": "Caps",
         "image": "https://i.ibb.co/VxZHmcD/sonu-kumar-8-XZBP38-QJFM-unsplash.jpg",
@@ -58,6 +34,18 @@
         "new_price": 16.99,
         "brand_name": "New Era",
         "color": "Blue"
+    },
+    {
+        "id": "5",
+        "category": "Caps",
+        "image": "https://i.ibb.co/vmgFQZr/erik-mclean-m7l-HDZc-Tqq-I-unsplash.jpg",
+        "title": "Retro Snapback Cap - Red",
+        "star_rating": 4.0,
+        "reviews": 80,
+        "previous_price": 29.99,
+        "new_price": 24.99,
+        "brand_name": "New Era",
+        "color": "Red"
     },
     {
         "id": "7",
@@ -94,6 +82,18 @@
         "new_price": 44.99,
         "brand_name": "RetroSpecs",
         "color": "Black"
+    },
+    {
+        "id": "2",
+        "category": "Shoes",
+        "image": "https://i.ibb.co/N3P7Kw5/felipepelaquim-6z-O5-VKogo-ZE-unsplash.jpg",
+        "title": "Running Shoes - Blue Burst",
+        "star_rating": 4.2,
+        "reviews": 95,
+        "previous_price": 89.99,
+        "new_price": 69.99,
+        "brand_name": "Nike",
+        "color": "Blue"
     },
     {
         "id": "10",
