@@ -5,6 +5,7 @@ import { useState } from 'react';
 const Home = () => {
     // const [filterBrand, setFilterBrand] = useState(null);
     const [filterCategory, setFilterCategory] = useState(null);
+    const [sortOption, setSortOption] = useState(null);
 
     const handleClick = (brand, category) => {
         // setFilterBrand(brand ? brand.toLowerCase() : null);
@@ -17,6 +18,24 @@ const Home = () => {
         return categoryMatch;
         // return  brandMatch && categoryMatch;
     });
+
+    const handleSort = e => {
+        const selected =e.target.value;
+        setSortOption(selected)
+    }
+
+    let sortedCollection = [...filteredCollection];
+    if (sortOption === 'High to Low') {
+        sortedCollection = sortedCollection.filter((item, index) => {
+            if (index === 0) return true;
+            return item.new_price >= sortedCollection[index - 1].new_price;
+        });
+    } else if (sortOption === 'Low to High') {
+        sortedCollection = sortedCollection.filter((item, index) => {
+            if (index === 0) return true;
+            return item.new_price <= sortedCollection[index - 1].new_price;
+        });
+    }
 
     return (
         <div className='p-4'>
@@ -40,19 +59,16 @@ const Home = () => {
                             <div className="label">
                                 <span className="label-text">Pick the One You need</span>
                             </div>
-                            <select onClick={'price'} className="select select-bordered rounded-none">
+                            <select onChange={handleSort} className="select select-bordered rounded-none">
                                 <option disabled selected>Pick one</option>
                                 <option>High to Low</option>
                                 <option>Low to High</option>
-                                <option>100 to 200</option>
-                                <option>200 to 300</option>
-                                <option>300 to 1000</option>
                             </select>
                         </label>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-                    {filteredCollection.map(item => (
+                    {sortedCollection.map(item => (
                         <div key={item.id} className="card bg-base-100 border rounded-none">
                             <figure className="px-4 pt-5 rounded-none">
                                 <img src={item.image} alt="Product" className="h-36 w-full" />
