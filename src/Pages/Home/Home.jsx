@@ -1,18 +1,26 @@
 import { IoBagHandleOutline } from 'react-icons/io5';
-import collection from '../../../public/collection.json';
+
 import { useState } from 'react';
+import useProducts from '../../Hooks/useProducts';
+import useAxiosPublic from '../../Hooks/useAxiosPublic';
+import Swal from 'sweetalert2';
+import useCard from '../../Hooks/useCard';
+
 
 const Home = () => {
     // const [filterBrand, setFilterBrand] = useState(null);
+    const [products] = useProducts();
     const [filterCategory, setFilterCategory] = useState(null);
     const [sortOption, setSortOption] = useState(null);
+    const axiosPublic = useAxiosPublic();
+    const [, refetch] = useCard();
 
     const handleClick = (brand, category) => {
         // setFilterBrand(brand ? brand.toLowerCase() : null);
         setFilterCategory(category ? category.toLowerCase() : null);
     };
 
-    const filteredCollection = collection.filter(item => {
+    const filteredCollection = products.filter(item => {
         // const brandMatch = !filterBrand || item.brand_name.toLowerCase() === filterBrand;
         const categoryMatch = !filterCategory || item.category.toLowerCase() === filterCategory;
         return categoryMatch;
@@ -30,6 +38,31 @@ const Home = () => {
     } else if (sortOption === 'Low to High') {
         sortedCollection.sort((a, b) => a.new_price - b.new_price);
     }
+
+
+    const handleAddedProduct = (item) => {
+        Swal.fire({
+            title: "Do you want to Add to cart?",
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: "Add To Cart",
+            denyButtonText: `Don't Add`
+        }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+                axiosPublic.post('/cards', item)
+                    .then(res => {
+                        console.log(res.data)
+                    })
+                Swal.fire("Saved!", "", "success");
+                refetch();
+            } else if (result.isDenied) {
+                Swal.fire("Product is successfully add to cart", "", "info");
+            }
+        });
+    }
+
+
 
 
     return (
@@ -75,7 +108,7 @@ const Home = () => {
                                     <p>{item.new_price}</p>
                                 </div>
                                 <div className="card-actions flex items-end justify-end w-full">
-                                    <button className="btn btn-sm rounded-none hover:bg-black hover:text-white border-2 border-black">
+                                    <button onClick={() => handleAddedProduct(item)} className="btn btn-sm rounded-none hover:bg-black hover:text-white border-2 border-black">
                                         <IoBagHandleOutline className="text-2xl" />
                                     </button>
                                 </div>

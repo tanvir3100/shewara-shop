@@ -1,8 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import { IoBagHandleOutline } from "react-icons/io5";
+import useCard from "../../Hooks/useCard";
 
 
 const Navbar = () => {
+
+    const [cards] = useCard();
 
     const navLinks = <>
         <NavLink
@@ -54,7 +57,7 @@ const Navbar = () => {
                         <Link to='/dashBoard'>
                             <div className="indicator">
                                 <IoBagHandleOutline className="text-2xl" />
-                                <span className="badge badge-xs indicator-item p-2 bg-black text-white">+0  </span>
+                                <span className="badge badge-xs indicator-item p-2 bg-black text-white">{cards.length ? cards.length : +0}</span>
                             </div>
                         </Link>
                     </button>
