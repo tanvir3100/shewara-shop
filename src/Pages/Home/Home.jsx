@@ -54,7 +54,7 @@ const Home = () => {
                     .then(res => {
                         console.log(res.data)
                     })
-                Swal.fire("Saved!", "", "success");
+                Swal.fire("Done!", "", "success");
                 refetch();
             } else if (result.isDenied) {
                 Swal.fire("Product is successfully add to cart", "", "info");
