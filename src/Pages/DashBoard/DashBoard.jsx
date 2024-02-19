@@ -26,7 +26,6 @@ const DashBoard = () => {
     }, [cards]);
 
     const handleDelete = async item => {
-        console.log(item._id)
         Swal.fire({
             title: "Are you sure?",
             text: "You won't be able to revert this!",

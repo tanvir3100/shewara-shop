@@ -95,14 +95,14 @@ const Home = () => {
                         </select>
                     </label>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-5">
                     {sortedCollection.map(item => (
                         <div key={item.id} className="card bg-base-100 border rounded-none">
                             <figure className="px-4 pt-5 rounded-none">
                                 <img src={item.image} alt="Product" className="h-36 w-full" />
                             </figure>
-                            <div className="card-body p-5 items-center text-center flex flex-grow">
-                                <h2 className="font-bold">{item.title}</h2>
+                            <div className="card-body p-5 items-center text-center flex gap-3 flex-grow">
+                                <h2 className="font-bold flex-grow">{item.title}</h2>
                                 <div className='flex items-center gap-4'>
                                     <del>${item.previous_price}</del>
                                     <p>{item.new_price}</p>
