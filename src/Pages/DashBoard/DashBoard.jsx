@@ -7,7 +7,6 @@ import useAxiosPublic from '../../Hooks/useAxiosPublic';
 
 
 const DashBoard = () => {
-
     const [totalPrice, setTotalPrice] = useState(0);
     const axiosPublic = useAxiosPublic();
     const [cards, refetch] = useCard();

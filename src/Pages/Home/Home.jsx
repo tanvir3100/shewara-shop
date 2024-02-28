@@ -16,12 +16,10 @@ const Home = () => {
     const [, refetch] = useCard();
 
     const handleClick = (brand, category) => {
-        // setFilterBrand(brand ? brand.toLowerCase() : null);
         setFilterCategory(category ? category.toLowerCase() : null);
     };
 
     const filteredCollection = products.filter(item => {
-        // const brandMatch = !filterBrand || item.brand_name.toLowerCase() === filterBrand;
         const categoryMatch = !filterCategory || item.category.toLowerCase() === filterCategory;
         return categoryMatch;
         // return  brandMatch && categoryMatch;
@@ -70,12 +68,6 @@ const Home = () => {
             <h1 className="text-2xl">Our Products</h1>
             <div className='ml-5'>
                 <div className='flex lg:justify-between items-center my-5 '>
-                    {/* <div className='flex items-center gap-4 my-5'>
-                        <button onClick={() => handleClick()} className='btn btn-sm rounded-none'>All</button>
-                        <button onClick={() => handleClick('Nike')} className='btn btn-sm rounded-none'>Nike</button>
-                        <button onClick={() => handleClick('Adidas')} className='btn btn-sm rounded-none'>Adidas</button>
-                        <button onClick={() => handleClick('Jordan')} className='btn btn-sm rounded-none'>Jordan</button>
-                    </div> */}
                     <div className="flex gap-1 lg:gap-4 items-center">
                         <button onClick={() => handleClick()} className='btn btn-sm rounded-none'>All</button>
                         <button onClick={() => handleClick(null, 'shoes')} className="btn rounded-none btn-sm">Shoes</button>
